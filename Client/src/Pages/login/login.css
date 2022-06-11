@@ -1,0 +1,135 @@
+.login {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f0f2f5;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.loginWrapper {
+	width: 70% !important;
+	height: 70% !important;
+	display: flex;
+}
+
+.loginLeft,
+.loginRight {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.loginLogo {
+	font-size: 50px;
+	font-weight: 800;
+	color: rgb(42, 113, 113);
+}
+
+.loginDesc {
+	font-size: 20px;
+	color: #8e8e8e;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+.loginWithGoogleButton {
+	width: 70%;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid rgb(168, 40, 40);
+	background-color: rgb(168, 40, 40);
+	color: rgb(244, 238, 238);
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 100px;
+	cursor: pointer;
+}
+
+.loginWithGoogleButton:hover {
+	background-color: rgb(244, 238, 238);
+	color: rgb(168, 40, 40);
+}
+
+.loginBox {
+	height: 350px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.loginBoxHeaderText {
+	font-size: 25px;
+	font-weight: 500;
+	color: rgb(93, 150, 159);
+	margin-bottom: 10px;
+}
+
+.loginInput {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #d9d9d9;
+	padding: 0 10px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.loginInput:focus {
+	outline: none;
+}
+
+.loginButton {
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	border: 1px solid #d9d9d9;
+	background-color: rgb(42, 113, 113);
+	color: rgb(255, 254, 254);
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.loginButton:hover {
+	background-color: rgb(94, 182, 192);
+	color: #fff;
+}
+
+.loginForgot {
+	font-size: 14px;
+	color: #8e8e8e;
+	margin-top: 10px;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.loginForgot:hover {
+	color: #555;
+}
+
+.loginRegisterButton {
+	width: 60%;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #5d8671;
+	background-color: rgb(104, 174, 103);
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.loginRegisterButton:hover {
+	background-color: #5d8671;
+	color: #fff;
+}

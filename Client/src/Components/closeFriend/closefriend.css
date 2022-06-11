@@ -1,0 +1,35 @@
+.leftbarFriendListItem {
+	margin-bottom: 20px;
+	display: flex;
+	height: 50px;
+	cursor: pointer;
+	align-items: center;
+}
+
+.leftbarFriendListItemImg {
+	margin-right: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+.leftbarFriendListItemImg:hover {
+	opacity: 0.5;
+}
+
+.leftbarFriendListItemText {
+	margin-right: 20px;
+}
+
+.leftbarFriendListItemName {
+	font-weight: bold;
+}
+
+.leftbarFriendListItemName:hover {
+	text-decoration: underline;
+}
+
+.leftbarFriendListItemStatus {
+	color: #8e8e8e;
+}

@@ -1,0 +1,129 @@
+.topbarContainer {
+	height: 50px;
+	width: 100%;
+	background-color: rgb(132, 140, 254);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+.topbarLeft {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 20px;
+	flex: 3;
+}
+
+.logo {
+	font-size: 24px;
+	margin-left: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.topbarCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 5;
+}
+
+.searchBar {
+	height: 30px;
+	width: 100%;
+	border-radius: 30px;
+	border: 1px solid rgb(132, 254, 179);
+	background-color: rgb(255, 255, 255);
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.searchIcon {
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.searchInput {
+	height: 100%;
+	width: 90%;
+	border: none;
+	background-color: transparent;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.searchInput:focus {
+	outline: none;
+}
+
+.topbarRight {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 4;
+	color: white;
+}
+
+.topbarLinks {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.topbarLink {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.topbarIcons {
+	display: flex;
+}
+
+.topbarIcon {
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+.topbarIconBadge {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	justify-content: center;
+	line-height: 20px;
+}
+
+.topbarImg {
+	height: 32px !important;
+	width: 32px;
+	border-radius: 50%;
+	background-color: rgb(132, 254, 179);
+	margin-right: 20px;
+	cursor: pointer;
+	-o-object-fit: cover;
+	object-fit: cover;
+}

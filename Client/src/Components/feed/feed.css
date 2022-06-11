@@ -1,0 +1,33 @@
+.feed{
+  height: calc(100vh - 50px);
+  /* padding-top: 60px; */
+  flex: 6;
+}
+
+.feedWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+	position: fixed;
+	display: block;
+	bottom: 30px;
+	left: 300px;
+}
+
+.pagination button {
+	background-color: #9d74a5;
+	color: white;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding: 2px 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.pagination button:hover {
+	background-color: white;
+	color: #9d74a5;
+}

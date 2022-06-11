@@ -1,0 +1,55 @@
+.search {
+	height: calc(100vh - 50px);
+	flex: 6;
+	padding-top: 100px;
+}
+
+.searchWrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.searchUser {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	border-radius: 5px;
+	border: 1px solid #d9d9d9;
+  padding: 5px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #000;
+	margin-bottom: 10px;
+  margin-left: 15%;
+}
+
+.searchUserImage {
+	width: 40px !important;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #d9d9d9;
+	margin-right: 10px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.searchUserInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.searchUserName{
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 10px;
+}
+
+.searchUserSubname{
+  font-size: 14px;
+  color: #000;
+}
