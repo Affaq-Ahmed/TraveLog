@@ -21,7 +21,7 @@ const PostSchema = new mongoose.Schema(
 			default: [],
 		},
 		comments: {
-			type: CommentSchema,
+			type: [CommentSchema],
 			default: [],
 		},
 		createdAt: {

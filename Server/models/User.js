@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const passportLocalMongoose = require("passport-local-mongoose");
 const findOrCreate = require("mongoose-findorcreate");
 
 const User = new mongoose.Schema(
@@ -37,13 +36,14 @@ const User = new mongoose.Schema(
 		followers: { type: Array, default: [] },
 		following: { type: Array, default: [] },
 		isAdmin: { type: Boolean, default: false },
+		resetPasswordToken: { type: String, default: "" },
+		resetTokenExpiration: { type: Date, default: Date.now },
 	},
 	{
 		timestamps: true,
 	}
 );
 
-User.plugin(passportLocalMongoose);
 User.plugin(findOrCreate);
 
 module.exports = mongoose.model("User", User);
